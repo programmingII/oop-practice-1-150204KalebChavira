@@ -8,7 +8,7 @@ class ejercicio7_tablas8{ 			//inicio de la clase
 
 public static void main (String args[]){	//inicio del main
 
-int numero;
+int numero;                                 //declaracion de un numero entero
 
 Scanner sc = new Scanner(System.in);		//creacion del objeto scanner
 System.out.println("Ingresa el numero a multiplicar\n");
@@ -19,4 +19,4 @@ System.out.println(numero +"X"+i+"= "+(numero*i));		//impresion del cada una de 
 }						//salida del for
 
 }						//cierre del main
-}
+}           //cierre del class
