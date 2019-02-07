@@ -6,7 +6,7 @@ public class Ejercicio9_expresion {			//inicio de clase
  
 public static void main(String[] args) {		//main
 
-System.out.println("((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5)) ==" + ((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5)) );	//impresion radical de la expresion
+System.out.println("((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5)) == " + ((25.5 * 3.5 - 3.5 * 3.5) / (40.5 - 4.5)) );	//impresion radical de la expresion
        
        
     }								//salida main
