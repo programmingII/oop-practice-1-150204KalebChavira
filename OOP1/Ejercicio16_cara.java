@@ -1,6 +1,6 @@
 /*Name: Joaquin Kaleb Chavira Gonzalez
 Dia: 08/02/2019
-Hora: 4:20*/
+Hora: 4:35*/
 
 
 public class Ejercicio16_cara {			//inicio de clase
