@@ -25,12 +25,12 @@ public class Ejercicio17_SumaBin{		//inicio de la clase
    bin2 = bin2 / 10;							//...lo mismo de arriba...
   }
   if (base != 0) {							//aqui es para cerrar el ciclo de la suma cuando toda la suma ya no tenga ceros
-   suma[i++] = base;							//lo que se almaceno en la base en binario se almacenará en la cadena suma
+   suma[i++] = base;							//lo que se almaceno en la base en binario se almacenarÃ¡ en la cadena suma de forma de pila
   }
   --i;									//regrasar la i a la primera cadena
   System.out.print("La suma es: ");					//mensaje antes de imrpimir la suma
   while (i >= 0) {
-   System.out.print(suma[i--]+"\n");					//aqui se imprime la cadena de binarios de la ultima cadena hasta la primera
+   System.out.print(suma[i--]+"\n");					//aqui se imprime la cadena de binarios de la ultima cadena hasta la primera en forma de pila
   }
    
  }						//salida del main
