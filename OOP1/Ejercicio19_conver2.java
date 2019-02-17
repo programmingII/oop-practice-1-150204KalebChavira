@@ -12,7 +12,7 @@ int n1;
 System.out.println("Capture un numero decimal: "); //se imprime en pantalla la instruccion
 n1=sc.nextInt(); //se le asigna el valor 
 
-String bin1=Integer.toBinaryString(n1);
+String bin1=Integer.toBinaryString(n1);   //aqui se transforma el numero entero al binario
 
 System.out.println("El numero en binario es: " + bin1); // se imprimen los valores de las variables y la suma de ellas
 }
