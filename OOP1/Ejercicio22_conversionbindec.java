@@ -7,8 +7,7 @@ public class Ejercicio22_conversionbindec{ 				//declaracion de la clase
 public static void main (String [ ] args){			//declaracion del programa principal 
 
 Scanner sc=new Scanner(System.in); //se crea el objeto de la clase Scanner para poder capturar datos desde el teclado
-String bin;
-int n1;
+String bin;   //Se declara la variable para el binario
 
 System.out.println("Ingrese el numero binario: "); //se imprime en pantalla la instruccion
 bin=sc.nextLine(); //se le asigna el valor 
