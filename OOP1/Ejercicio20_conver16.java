@@ -7,7 +7,7 @@ public class Ejercicio20_conver16{ 				//declaracion de la clase
 public static void main (String [ ] args){			//declaracion del programa principal 
 
 Scanner sc=new Scanner(System.in); //se crea el objeto de la clase Scanner para poder capturar datos desde el teclado
-int n1;
+int n1;     //declarar un entero
 
 System.out.println("Capture un numero decimal: "); //se imprime en pantalla la instruccion
 n1=sc.nextInt(); //se le asigna el valor 
