@@ -14,6 +14,6 @@ n1=sc.nextInt(); //se le asigna el valor
 
 String bin1=Integer.toOctalString(n1);		//Aqui tenemos la convercion del String a Octal
 
-System.out.println("El numero Octal es: " + bin1); // se imprimen los valores de las variables y la suma de ellas
+System.out.println("El numero Octal es: " + bin1); // se imprime el resultado
 }
 }
