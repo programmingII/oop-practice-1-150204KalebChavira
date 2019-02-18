@@ -7,15 +7,15 @@ public class Ejercicio30_convhexoct{ 				//declaracion de la clase
 public static void main (String [ ] args){			//declaracion del programa principal 
 
 Scanner sc=new Scanner(System.in); //se crea el objeto de la clase Scanner para poder capturar datos desde el teclado
-String hex,oct;
-int middle;
+String hex,oct;     //se declara los strings a transforamr
+int middle;           //un numero entero el cual se hara la base del cambio a hexa
 
 System.out.println("Ingrese el numero hexadecimal: "); //se imprime en pantalla la instruccion
-hex= sc.nextLine();		//capturamos el dato del binario
+hex= sc.nextLine();		//capturamos el dato del hexadecimal
 
-middle=Integer.parseInt(hex,16); 		//se convierte del numero binario a decimal
+middle=Integer.parseInt(hex,16); 		//se convierte del numero hexadecimal a decimal
 oct=Integer.toOctalString(middle);		//aqui convertimos del decimal al octal
 
-System.out.println("El numero octal es: "+ oct); //Aqui mismo se hace la convercion y se imprime
+System.out.println("El numero octal es: "+ oct); //Aqui se imprime el resultado
 }
 }
