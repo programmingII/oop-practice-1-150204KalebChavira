@@ -16,6 +16,6 @@ hex= sc.nextLine();		//capturamos el dato del hexadecimal
 middle=Integer.parseInt(hex,16); 		//se convierte del numero hexadecimal a decimal
 oct=Integer.toOctalString(middle);		//aqui convertimos del decimal al octal
 
-System.out.println("El numero octal es: "+ oct); //Aqui se imprime el resultado
+System.out.println("El numero octal es: "+ oct); //Aqui se imprime el resultado octal
 }
 }
