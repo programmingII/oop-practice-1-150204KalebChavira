@@ -10,12 +10,12 @@ Scanner sc=new Scanner(System.in); //se crea el objeto de la clase Scanner para 
 String bin,hexa;  //variables de la conversion
 int middle;       //variable del punto medio, aqui se almacena un decimal
 
-System.out.println("Ingrese el numero binario: "); //se imprime en pantalla la instruccion
+System.out.println("Ingrese el numero binario: "); //se pide un numero binario
 bin = sc.nextLine();		//capturamos el dato del binario
 
 middle=Integer.parseInt(bin,2); 		//se convierte del numero binario a decimal
 hexa=Integer.toHexString(middle);		//aqui convertimos del decimal al hexadecimal
 
-System.out.println("El numero hexadecimal es: "+ hexa); //Aqui mismo se hace la convercion y se imprime
+System.out.println("El numero hexadecimal es: "+ hexa); //Aqui se imprime el hexa
 }
 }
