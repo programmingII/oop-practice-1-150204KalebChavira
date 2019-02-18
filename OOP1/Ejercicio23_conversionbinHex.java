@@ -1,6 +1,6 @@
 /*Name: Joaquin Kaleb Chavira Gonzalez
 Date: 17/02/19
-Hour: 5:20*/
+Hour: 5:45*/
 import java.util.Scanner; //Importamos la libreria Scanner
 
 public class Ejercicio23_conversionbinHex{ 				//declaracion de la clase 
