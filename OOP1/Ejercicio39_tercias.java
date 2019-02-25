@@ -2,7 +2,6 @@
 Date: 24/02/19
 Hour: 8:23*/
 
-import java.util.Scanner;		//Importamos la libreria del Scanner
 
 class Ejercicio39_tercias{		//inicio de la clase
 public static void main(String [] args){//inicio del main
