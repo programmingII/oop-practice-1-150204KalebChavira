@@ -1,6 +1,6 @@
 /*Name: Joaquin Kaleb Chavira Gonzalez
 Date: 27/02/19
-Hour: 1:20*/
+Hour: 1:30*/
 
 import java.util.Scanner;
 class Ejercicio53_abc	{	//inicio de la clase
