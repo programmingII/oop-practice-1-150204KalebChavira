@@ -1,6 +1,6 @@
 /* Name: Joaquin Kaleb Chavira Gonzalez 
 Date: 04/03/2019
-Hour: 2:13 */
+Hour: 2:25*/
 
 import java.util.Scanner;
 
